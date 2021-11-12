@@ -1,0 +1,26 @@
+.navbar {
+  background-color: red;
+
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.cont {
+  display: flex;
+}
+.text {
+  position: relative;
+  font-family: "PokemonSolid";
+  font-size: 50px;
+  color: #ffcc03;
+}
+.d-flex {
+  position: relative;
+  height: fit-content;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.image2 {
+  width: 100px;
+  height: 100px;
+}
