@@ -1,21 +1,22 @@
 import React, {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styled from "styled-components";
 import './Header.css'
 
 class Header extends Component{
 
     render(){
         return(
-        <nav class="navbar">
-            <div class="cont">
-                <img src="./poke2.png" alt="" class="image2"/>
-                <text class="text">
+        <nav className="navbar">
+            <div className="cont col-md-auto">
+                <img className="image2" src="./poke2.png"/>
+                <h1 className="text">
                     PokeDesk
-                </text>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Procurar Pokémon" aria-label="Search"/>
-                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </h1>
+            </div>
+            <div>
+                <form className="d-flex col-md-auto">
+                    <input className="form-control me-2" type="search" placeholder="Procurar Pokémon" aria-label="Search"/>
+                    <button className="btn btn-outline-light" type="search">Buscar</button>
                 </form>
             </div>
         </nav>

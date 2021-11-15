@@ -7,7 +7,7 @@ import Header from './components/Header'
 export default class App extends Component {
   render(){
     return (
-      <div>
+      <div className= "menu">
       <Header/>
       <Grid/>
       </div>

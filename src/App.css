@@ -12,6 +12,12 @@ main {
   padding: 72px 0;
   text-align: center;
 }
+.menu {
+  background-image: url("/src/assets/pokemon.jpg");
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
 h1 {
   font-size: 45px;
 }

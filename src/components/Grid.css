@@ -1,3 +1,8 @@
-.col-md-auto {
+.container {
   padding-top: 20px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
 }
