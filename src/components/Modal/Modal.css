@@ -1,0 +1,137 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+  z-index: 100;
+  top: 0px;
+}
+
+.modalContainer {
+  width: 400px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  justify-content: center;
+  position: fixed;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.inputImage {
+  justify-content: center;
+}
+.miniViewImage {
+  max-block-size: 200px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+}
+.divMiniView {
+  max-block-size: 200px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+}
+
+.inputName {
+  border-radius: 6px;
+}
+
+.title {
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 0px;
+}
+
+.inputNameBody {
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.namebtn {
+  background-color: #ffcc03;
+  color: red;
+  border: none;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+.filesbtn {
+  font-size: 15px;
+  background-color: red;
+  color: #ffcc03;
+  border: none;
+  border-radius: 6px;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+.filesbtnDiv {
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  align-items: center;
+  padding-top: 5px;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}

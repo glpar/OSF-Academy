@@ -1,0 +1,22 @@
+.ModelPokemon {
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  align-items: center;
+  display: flex;
+}
+
+.Model-header {
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  align-items: center;
+  display: flex;
+}
+.openModal {
+  margin-top: 10px;
+  background-color: black;
+  color: #ffcc03;
+  border: none;
+  border-radius: 6px;
+}
